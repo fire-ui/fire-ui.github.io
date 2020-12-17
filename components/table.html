@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table ~ Fire UI</title>
+    <meta name="title" content="Table ~ Fire UI">
+    <meta name="description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fire-ui.github.io/">
+    <meta property="og:title" content="Modal ~ Fire UI">
+    <meta property="og:description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="og:image" content="https://fire-ui.github.io/logo.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fire-ui.github.io/">
+    <meta property="twitter:title" content="Modal ~ Fire UI">
+    <meta property="twitter:description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that
+    is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="twitter:image" content="https://fire-ui.github.io/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="../FireUI.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../FireUI.js"></script>
+    <link rel="shortcut icon" href="../logo.jpg" type="image/x-icon">
+</head>
+<body theme="light">
+    <div class="fixed-sidenav theme-reverse">
+        <a class="fixed-sidenav-item sidenav-title" href="../index.html">Fire UI</a>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown = "gettingStarted">Getting Started <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content" id="gettingStarted">
+            <a class="fixed-sidenav-item" href="../getting-started/introduction.html">Introduction</a>
+            <a class="fixed-sidenav-item" href="../getting-started/download.html">Download</a>
+            <a class="fixed-sidenav-item" href="../getting-started/customize.html">Customize</a>
+        </div>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown="layout">Layout <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content" id="layout">
+            <a href="../Layout/container.html" class="fixed-sidenav-item">Container</a>
+            <a href="../Layout/grid.html" class="fixed-sidenav-item">Grid</a>
+        </div>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown="component">Components <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content fixed-sidenav-dropdown-active" id="component">
+            <a href="../components/box.html" class="fixed-sidenav-item">Box</a>
+            <a href="../components/buttons.html" class="fixed-sidenav-item">Buttons</a>
+            <a href="../components/code.html" class="fixed-sidenav-item">Code</a>
+            <a href="../components/color_theme.html" class="fixed-sidenav-item">Color and theme</a>
+            <a href="../components/form.html" class="fixed-sidenav-item">Form</a>
+            <a href="../components/modal.html" class="fixed-sidenav-item">Modal</a>
+            <a href="../components/navbar.html" class="fixed-sidenav-item">Navigation bar</a>
+            <a href="../components/table.html" class="fixed-sidenav-item">Table</a>
+            <a href="../components/tabs.html" class="fixed-sidenav-item">Tabs</a>
+            <a href="../components/tooltip.html" class="fixed-sidenav-item">Tooltip</a>
+        </div>
+    </div>
+    <div class="main-page">
+        <h1>Table</h1>
+        <p>Fire UI's table is designed to fullfill any problems related to <code>table</code>. </p>
+        <div class="division">
+            <h2>Overview</h2>
+            <p>This is how table look in Fire-UI :</p>
+            <table>
+                <thead>
+                    <tr>
+                        <td>No</td>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mike</td>
+                        <td>Thompson</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>John</td>
+                        <td>Sayers</td>
+                    </tr>
+                </tbody>
+            </table>
+            <pre>
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;td&gt;No&lt;/td&gt;
+            &lt;td&gt;First Name&lt;/td&gt;
+            &lt;td&gt;Last Name&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;1&lt;/td&gt;
+            &lt;td&gt;Mike&lt;/td&gt;
+            &lt;td&gt;Thompson&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;John&lt;/td&gt;
+            &lt;td&gt;Sayers&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</pre>
+        </div>
+        <div class="division">
+            <h2>Variations</h2>
+            Fire-UI tables are designed from simple to complex.
+            <h3>Full Width Table</h3>
+            <p>Use <code>.table-full-width</code> in table's class to create a full width table</p>
+            <table class="table-full-width">
+                <thead>
+                    <tr>
+                        <td>No</td>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mike</td>
+                        <td>Thompson</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>John</td>
+                        <td>Sayers</td>
+                    </tr>
+                </tbody>
+            </table>
+            <pre>
+&lt;table class=&quot;table-full-width&quot;&gt;
+    ....
+&lt;/table&gt;</pre>
+        </div>
+        <div class="division">
+            <h3>Fixed Width Table</h3>
+            <p>Simply add <code>.table-fixed-width</code> in table's class to create a fixed width table</p>
+            <table class="table-fixed-width">
+                <thead>
+                    <tr>
+                        <td>No</td>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mike</td>
+                        <td>Thompson</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>John</td>
+                        <td>Sayers</td>
+                    </tr>
+                </tbody>
+            </table>
+            <pre>
+&lt;table class=&quot;table-fixed-width&quot;&gt;
+    ....
+&lt;/table&gt;</pre>
+        </div>
+        <div class="division">
+            <h3>Bordered Table</h3>
+            <p>Does Fire-UI's table has border? Yes! Simply add <code>.table-border</code> in table's class to create a border between columns and rows!</p>
+            <table class="table-border">
+                <thead>
+                    <tr>
+                        <td>No</td>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mike</td>
+                        <td>Thompson</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>John</td>
+                        <td>Sayers</td>
+                    </tr>
+                </tbody>
+            </table>
+            <pre>
+&lt;table class=&quot;table-border&quot;&gt;
+    ....
+&lt;/table&gt;</pre>
+        </div>
+    </div>
+</body>
+</html>
