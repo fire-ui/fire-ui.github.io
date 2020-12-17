@@ -66,6 +66,10 @@
     z-index: 20;    
 }
 
+.fixed-sidenav-dropdown-content:last-child{
+    margin-bottom: 10vh;
+}
+
 @media only screen and (max-width: 768px){
     .col-3{
         width: calc(50% - 1rem);
