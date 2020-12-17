@@ -40,6 +40,10 @@
     margin: 3rem 0;
 }
 
+.division-1 {
+    margin: 3rem 0 8rem 0;
+}
+
 .col-3, .col-ex-3{
     width: calc(25% - 1rem);
     padding: 0.4rem;
