@@ -2,17 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box ~ Fire UI</title>
-    <meta name="title" content="Box ~ Fire UI">
+    <title>Tooltip ~ Fire UI</title>
+    <meta name="title" content="Tooltip ~ Fire UI">
     <meta name="description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fire-ui.github.io/">
-    <meta property="og:title" content="Box ~ Fire UI">
+    <meta property="og:title" content="Modal ~ Fire UI">
     <meta property="og:description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
     <meta property="og:image" content="https://fire-ui.github.io/logo.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://fire-ui.github.io/">
-    <meta property="twitter:title" content="Box ~ Fire UI">
+    <meta property="twitter:title" content="Modal ~ Fire UI">
     <meta property="twitter:description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that
     is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
     <meta property="twitter:image" content="https://fire-ui.github.io/logo.jpg">
@@ -48,46 +48,67 @@
         </div>
     </div>
     <div class="main-page">
-        <h1>Box</h1>
-        <p>Start using Fire UI box by simply add <code>box</code> class into your element. Fire UI also provides <code>box-shadow</code> and 
-            <code>box-title</code> class for your box element.</p>
-        <h2>Example</h2>
-        <div class="box box-shadow">
-           <h1 class="box-title">Hello World</h1> 
-        </div>
-        <pre>
-&#x3C;div class=&#x22;box box-shadow&#x22;&#x3E;
-    &#x3C;h1 class=&#x22;box-title&#x22;&#x3E;Hello World&#x3C;/h1&#x3E; 
-&#x3C;/div&#x3E;</pre>
+        <h1>Tooltip</h1>
+        <p>Start using Fire UI tooltip plugin to display some information about an element when user hovers a mouse pointer over and enhance your UI with Fire-UI's tooltip!</p>
         <div class="division">
-            <h2>Combination</h2>
-            <p>You can combine box with other classes too! For example:</p>
-            <div class="row">
-                <div class="col-ex-6">
-                    <div class="box theme-reverse">
-                        <p class="box-title">Hello</p>
+            <h2>Example</h2>
+            <div class="tooltip">
+                Hover On Me
+                <span class="tooltip-data">Hello World</span>
+            </div>
+            <pre>
+&lt;div class=&quot;tooltip&quot;&gt;
+    Hover On Me
+    &lt;span class=&quot;tooltip-data&quot;&gt;Hello World&lt;/span&gt;
+&lt;/div&gt;</pre>
+        </div>
+        <div class="division">
+            <h2>Tooltip Variation</h2>
+            Fire-UI also brings tooltip in variation of types, such as :
+            <ul>
+                <li>Pop Right (Default)</li>
+                <li>Pop Left</li>
+                <li>Pop Top</li>
+                <li>Pop Down</li>
+            </ul>
+            <div class="division-1" style="text-align: center;">
+                <div class="col-ex-3">
+                    <div class="tooltip">Pop Right (Default)
+                        <span class="tooltip-data">I am a tooltip</span>
                     </div>
                 </div>
-                <div class="col-ex-6">
-                    <div class="box theme-adjust">
-                        <p class="box-title">World</p>
+                <div class="col-ex-3">
+                    <div class="tooltip">Pop Left
+                        <span class="tooltip-data tooltip-left">I am a tooltip</span>
+                    </div>
+                </div>
+                <div class="col-ex-3">
+                    <div class="tooltip">Pop Top
+                        <span class="tooltip-data tooltip-top">I am a tooltip</span>
+                    </div>
+                </div>
+                <div class="col-ex-3">
+                    <div class="tooltip">Pop Bottom
+                        <span class="tooltip-data tooltip-bottom">I am a tooltip</span>
                     </div>
                 </div>
             </div>
             <pre>
-&#x3C;div class=&#x22;row&#x22;&#x3E;
-    &#x3C;div class=&#x22;col-ex-6&#x22;&#x3E;
-        &#x3C;div class=&#x22;box theme-reverse&#x22;&#x3E;
-            &#x3C;p class=&#x22;box-title&#x22;&#x3E;Hello&#x3C;/p&#x3E;
-        &#x3C;/div&#x3E;
-    &#x3C;/div&#x3E;
-    &#x3C;div class=&#x22;col-ex-6&#x22;&#x3E;
-        &#x3C;div class=&#x22;box theme-adjust&#x22;&#x3E;
-            &#x3C;p class=&#x22;box-title&#x22;&#x3E;World&#x3C;/p&#x3E;
-        &#x3C;/div&#x3E;
-    &#x3C;/div&#x3E;
-&#x3C;/div&#x3E;
-            </pre>
+&lt;div class=&quot;tooltip&quot;&gt;Pop Right (Default)
+    &lt;span class=&quot;tooltip-data&quot;&gt;I am a tooltip&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tooltip&quot;&gt;Pop Left
+    &lt;span class=&quot;tooltip-data tooltip-left&quot;&gt;I am a tooltip&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tooltip&quot;&gt;Pop Top
+    &lt;span class=&quot;tooltip-data tooltip-top&quot;&gt;I am a tooltip&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tooltip&quot;&gt;Pop Bottom
+    &lt;span class=&quot;tooltip-data tooltip-bottom&quot;&gt;I am a tooltip&lt;/span&gt;
+&lt;/div&gt;</pre>
         </div>
     </div>
 </body>
