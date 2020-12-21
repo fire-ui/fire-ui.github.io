@@ -5,7 +5,9 @@ const Layout: React.FC = ({ children }) => {
     return (
         <>
             <SideNavbar />
-            {children}
+            <div className="main-page">
+                {children}
+            </div>
         </>
     )
 }
