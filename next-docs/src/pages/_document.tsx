@@ -1,11 +1,12 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { fireUIJS } from 'src/constants'
 
 class MyDocument extends Document {
     render() {
         return (
             <Html>
-                <Head />
+                <Head>
+                    <link rel="shortcut icon" href="/logo.jpg" />
+                </Head>
                 <body>
                     <Main />
                     <NextScript />

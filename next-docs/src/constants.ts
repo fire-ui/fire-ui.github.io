@@ -1,3 +1,4 @@
+export const URLAddress = process.env.URLAdress;
 export const fireUIJS = `
 // Wait the DOM to be loaded
 document.addEventListener("DOMContentLoaded", () => {
@@ -85,4 +86,4 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     })
 })
-`
+`;

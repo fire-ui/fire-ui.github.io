@@ -1,33 +1,67 @@
+import Link from 'next/link'
 import React from 'react'
+import { DocsCategory, Metadata } from 'src/types'
 
-const SideNavbar = () => {
+interface Props {
+    allData: Metadata[];
+    slugs: string[];
+}
+
+export interface ComponentsDataType {
+    title: string;
+    priority: number;
+    slug: string;
+    category: DocsCategory;
+}
+
+const SideNavbar: React.FC<Props> = ({ allData, slugs }) => {
+
+    const componentsData: ComponentsDataType[] = []
+    for (let i = 0; i < allData.length; i++) {
+        let theData = {
+            title: allData[i].title,
+            priority: allData[i].priority,
+            slug: slugs[i],
+            category: allData[i].category
+        }
+
+        componentsData.push(theData)
+    }
+
+    const sortedComponentsData = [...componentsData].sort((a, b) => b.priority - a.priority)
+    console.log(sortedComponentsData)
+
+    const gettingStartedPosts = sortedComponentsData.filter(data => data.category === "getting-started");
+    const layoutPosts = sortedComponentsData.filter(data => data.category === "layout");
+    const componentsPosts = sortedComponentsData.filter(data => data.category === "components");
     return (
         <div className="fixed-sidenav theme-reverse">
-            <a className="fixed-sidenav-item sidenav-title" href="../index.html">Fire UI</a>
+            <Link href="/">
+                <a className="fixed-sidenav-item sidenav-title" >Fire UI</a>
+            </Link>
             <span className="fixed-sidenav-dropdown-btn" data-dropdown="gettingStarted">Getting Started <span className="dropdown-icon"></span></span>
             <div className="fixed-sidenav-dropdown-content" id="gettingStarted">
-                <a className="fixed-sidenav-item" href="../getting-started/introduction.html">Introduction</a>
-                <a className="fixed-sidenav-item" href="../getting-started/download.html">Download</a>
-                <a className="fixed-sidenav-item" href="../getting-started/customize.html">Customize</a>
+                {gettingStartedPosts.map(({ slug, title }) => (
+                    <Link href={slug}>
+                        <a className="fixed-sidenav-item" href="../getting-started/customize.html">{title}</a>
+                    </Link>
+                ))}
             </div>
             <span className="fixed-sidenav-dropdown-btn" data-dropdown="layout">Layout <span className="dropdown-icon"></span></span>
             <div className="fixed-sidenav-dropdown-content" id="layout">
-                <a href="../Layout/container.html" className="fixed-sidenav-item">Container</a>
-                <a href="../Layout/grid.html" className="fixed-sidenav-item">Grid</a>
+                {layoutPosts.map(({ slug, title }) => (
+                    <Link href={slug}>
+                        <a className="fixed-sidenav-item" href="../getting-started/customize.html">{title}</a>
+                    </Link>
+                ))}
             </div>
             <span className="fixed-sidenav-dropdown-btn" data-dropdown="component">Components <span className="dropdown-icon"></span></span>
             <div className="fixed-sidenav-dropdown-content fixed-sidenav-dropdown-active" id="component">
-                <a href="../components/accordion.html" className="fixed-sidenav-item">Accordion</a>
-                <a href="../components/box.html" className="fixed-sidenav-item">Box</a>
-                <a href="../components/buttons.html" className="fixed-sidenav-item">Buttons</a>
-                <a href="../components/code.html" className="fixed-sidenav-item">Code</a>
-                <a href="../components/color_theme.html" className="fixed-sidenav-item">Color and theme</a>
-                <a href="../components/form.html" className="fixed-sidenav-item">Form</a>
-                <a href="../components/modal.html" className="fixed-sidenav-item">Modal</a>
-                <a href="../components/navbar.html" className="fixed-sidenav-item">Navigation bar</a>
-                <a href="../components/table.html" className="fixed-sidenav-item">Table</a>
-                <a href="../components/tabs.html" className="fixed-sidenav-item">Tabs</a>
-                <a href="../components/tooltip.html" className="fixed-sidenav-item">Tooltip</a>
+                {componentsPosts.map(({ slug, title }) => (
+                    <Link href={slug}>
+                        <a className="fixed-sidenav-item" href="../getting-started/customize.html">{title}</a>
+                    </Link>
+                ))}
             </div>
         </div>
     )

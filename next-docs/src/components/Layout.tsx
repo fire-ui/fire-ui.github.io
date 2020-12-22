@@ -1,10 +1,16 @@
 import React from 'react'
+import { Metadata } from 'src/types'
 import SideNavbar from './SideNavbar'
 
-const Layout: React.FC = ({ children }) => {
+interface Props {
+    allData: Metadata[];
+    slugs: string[];
+}
+
+const Layout: React.FC<Props> = ({ children, allData, slugs }) => {
     return (
         <>
-            <SideNavbar />
+            <SideNavbar allData={allData} slugs={slugs} />
             <div className="main-page">
                 {children}
             </div>
