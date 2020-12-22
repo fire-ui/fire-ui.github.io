@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Metadata } from 'src/types'
+import { doStuff } from 'src/utils/FireUIJS'
 import SideNavbar from './SideNavbar'
 
 interface Props {
@@ -8,6 +9,10 @@ interface Props {
 }
 
 const Layout: React.FC<Props> = ({ children, allData, slugs }) => {
+
+    useEffect(() => {
+        doStuff();
+    }, [])
     return (
         <>
             <SideNavbar allData={allData} slugs={slugs} />

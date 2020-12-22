@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { fireUIJS } from 'src/constants'
 import '../styles/globals.css'
 import '../styles/FireUI.css'
 
@@ -22,9 +21,7 @@ function MyApp({ Component, pageProps }: any) {
         <meta property="twitter:description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that
     is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size." />
         <meta property="twitter:image" content="https://fire-ui.github.io" />
-        <script dangerouslySetInnerHTML={{
-          __html: fireUIJS
-        }} />
+        {/* <script src="https://unpkg.com/@fire-ui/fire-ui@0.1.0/FireUI.js"></script> */}
       </Head>
       <Component {...pageProps} />
     </>

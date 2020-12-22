@@ -1,10 +1,18 @@
 import Head from "next/head";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import AboutUs from "src/components/AboutUs";
 import Navbar from "src/components/Navbar";
+// @ts-ignore
+import loadjs from "loadjs"
+import { doStuff } from "src/utils/FireUIJS";
 
 export default function Index() {
+
+  useEffect(() => {
+    doStuff();
+  }, [])
+
   return (
     <>
       <Head>
