@@ -29,7 +29,6 @@ const SideNavbar: React.FC<Props> = ({ allData, slugs }) => {
     }
 
     const sortedComponentsData = [...componentsData].sort((a, b) => b.priority - a.priority)
-    console.log(sortedComponentsData)
 
     const gettingStartedPosts = sortedComponentsData.filter(data => data.category === "getting-started");
     const layoutPosts = sortedComponentsData.filter(data => data.category === "layout");
@@ -42,7 +41,7 @@ const SideNavbar: React.FC<Props> = ({ allData, slugs }) => {
             <span className="fixed-sidenav-dropdown-btn" data-dropdown="gettingStarted">Getting Started <span className="dropdown-icon"></span></span>
             <div className="fixed-sidenav-dropdown-content" id="gettingStarted">
                 {gettingStartedPosts.map(({ slug, title }) => (
-                    <Link href={slug}>
+                    <Link href={slug} key = {title}>
                         <a className="fixed-sidenav-item" href="../getting-started/customize.html">{title}</a>
                     </Link>
                 ))}
@@ -50,15 +49,15 @@ const SideNavbar: React.FC<Props> = ({ allData, slugs }) => {
             <span className="fixed-sidenav-dropdown-btn" data-dropdown="layout">Layout <span className="dropdown-icon"></span></span>
             <div className="fixed-sidenav-dropdown-content" id="layout">
                 {layoutPosts.map(({ slug, title }) => (
-                    <Link href={slug}>
+                    <Link href={slug} key = {title}>
                         <a className="fixed-sidenav-item" href="../getting-started/customize.html">{title}</a>
                     </Link>
                 ))}
             </div>
             <span className="fixed-sidenav-dropdown-btn" data-dropdown="component">Components <span className="dropdown-icon"></span></span>
-            <div className="fixed-sidenav-dropdown-content fixed-sidenav-dropdown-active" id="component">
+            <div className="fixed-sidenav-dropdown-content" id="component">
                 {componentsPosts.map(({ slug, title }) => (
-                    <Link href={slug}>
+                    <Link href={slug} key = {title}>
                         <a className="fixed-sidenav-item" href="../getting-started/customize.html">{title}</a>
                     </Link>
                 ))}

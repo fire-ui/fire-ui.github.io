@@ -24,7 +24,7 @@ const Docs: React.FC<Props> = ({ content, data, slugs, allData }) => {
                 <meta name="description" content={data.description} />
                 {!data.keywords || data.keywords.length === 0 ? null : <meta name="keywords" content={data.keywords.join(',')} />}
             </Head>
-            <div className="px-4 pb-2">
+            <div className="pb-2">
                 <div dangerouslySetInnerHTML={{ __html: content }} />
             </div>
         </Layout>
@@ -43,7 +43,7 @@ export const getStaticProps: GetStaticProps = async ({ params: { slug } }: any) 
 
     const parsedContent = marked(content);
 
-    console.log(data);
+    //console.log(data);
     return {
         props: {
             allData,
@@ -61,7 +61,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         params: { slug: file.replace('.md', '') }
     }));
 
-    console.log(files);
+    //console.log(files);
 
     return {
         paths,

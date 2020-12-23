@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Link href="/docs/introduction">
                     <a className="topnav-item">Docs</a>
                 </Link>
-                <Link href="https://github.com/kimlimjustin/fire-ui">
+                <Link href="https://github.com/fire-ui/fire-ui">
                     <a className="topnav-item">Github</a>
                 </Link>
                 <Link href="">
