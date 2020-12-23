@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "loadjs": "^4.2.0",
     "marked": "^1.2.7",
     "next": "10.0.3",
     "react": "17.0.1",

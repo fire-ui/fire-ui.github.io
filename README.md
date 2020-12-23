@@ -3,3 +3,4 @@
 
 * Visit documentation for Fire UI [here](https://fire-ui.github.io/).
 * For more info of Fire UI, please visit [this repository](https://github.com/fire-ui/fire-ui).
+* READme for the the Docs made in NextJS here [NextJS README](next-docs/README.md) 
