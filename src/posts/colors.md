@@ -34,7 +34,7 @@ You can switch theme of this website by clicking <u switch-theme>here</u> and <b
 <div class="division">
 
 ## Colors
-Note that you can customize colors. For more information, read [Customize](./customize)
+Note that you can customize colors. For more information, read <a href = "./customize" class="link">Customization</a>
 
 ### Text color classes:
 <ul>

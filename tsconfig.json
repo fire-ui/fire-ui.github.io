@@ -41,5 +41,5 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ]
+, "src/utils/FireUIJS.js"  ]
 }

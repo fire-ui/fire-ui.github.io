@@ -1,6 +1,8 @@
-# Fire UI
-> The framework contains eveything that is frequently used on the frontend.
+## Documentation page for Fire-UI in NextJS
 
-* Visit documentation for Fire UI [here](https://fire-ui.github.io/).
-* For more info of Fire UI, please visit [this repository](https://github.com/fire-ui/fire-ui).
-* READme for the the Docs made in NextJS here [NextJS README](next-docs/README.md) 
+### Setup
+- **make sure** that you're in the `next-docs` directory in your terminal or command prompt
+    - if not, then make sure to `cd next-docs`
+- Once in the `next-docs` directory, run the following
+    - `yarn` or `npm install` to install dependencies
+    - `yarn dev` or `npm run dev` to run it in development server

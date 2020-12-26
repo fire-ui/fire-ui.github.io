@@ -86,7 +86,7 @@ Grouping your inputs into `form-group`
 <div class="division">
 
 ## Form Grid
-You can combine form with the Fire UI [Grid System](./grid) too!
+You can combine form with the Fire UI <a href="./grid" class="link">Grid system</a> too!
 ### Example
 <div class="box theme-reverse">
     <div class="row">

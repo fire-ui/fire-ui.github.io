@@ -23,12 +23,12 @@
   font-size: 1.2rem;
   font-family: "Noto";
 }
-a{
+.link{
   color: inherit;
   opacity: .8;
   cursor: pointer;
 }
-a:hover, a:focus{
+.link:hover, .link:focus{
   opacity: .4;
 }
 
