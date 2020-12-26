@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Link href="https://github.com/fire-ui/fire-ui">
                     <a className="topnav-item">Github</a>
                 </Link>
-                <Link href="">
+                <Link href="/docs/download#examples">
                     <a className="topnav-item" >Example</a>
                 </Link>
                 <span className="topnav-item sidenav-menu-btn" data-target="about">About</span>

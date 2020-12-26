@@ -7,7 +7,7 @@ class MyDocument extends Document {
                 <Head>
                     <link rel="shortcut icon" href="/logo.jpg" />
                 </Head>
-                <body>
+                <body data-theme="light">
                     <Main />
                     <NextScript />
                 </body>
