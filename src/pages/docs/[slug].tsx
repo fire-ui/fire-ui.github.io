@@ -21,7 +21,12 @@ const Docs: React.FC<Props> = ({ content, data, slugs, allData }) => {
         <Layout slugs={slugs} allData={allData}>
             <Head>
                 <title>{`${data.title} ~ Fire UI`}</title>
+                <meta name="title" content = {data.title} />
+                <meta property="og:title" content = {data.title} />
+                <meta property="twitter:title" content = {data.title} />
                 <meta name="description" content={data.description} />
+                <meta property="og:description" content = {data.description} />
+                <meta property="twitter:description" content = {data.description} />
                 {!data.keywords || data.keywords.length === 0 ? null : <meta name="keywords" content={data.keywords.join(',')} />}
             </Head>
             <div className="pb-2">
