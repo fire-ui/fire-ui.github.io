@@ -20,7 +20,7 @@ Use Fire UI modal plugin to create dialogs to your site, user notifications and 
 ## Example
 <button class="btn theme-reverse" open-modal data-modal="myModal">Click to open modal</button>
 <div class="modal" id="myModal">
-    <div class="modal-content">
+    <div class="modal-content theme-adjust">
         <span class="modal-close-btn" data-modal="myModal">&times;</span>
         <h1 class="modal-content-title">Hello World</h1>
         <p class="modal-content-text">
