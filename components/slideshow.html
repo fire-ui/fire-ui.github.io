@@ -65,62 +65,59 @@
             <h3>Example</h3>
             <p>Example of slideshow with all classes available combine together:</p>
             <div>
-                <div class="slideshow_container">
+                <div class="slideshow-container">
                     <div class="slideshow">
                       <img src="https://cdn.spacetelescope.org/archives/images/wallpaper2/heic2007a.jpg">
-                      <span class="caption">Caption One</span>
+                      <span class="slideshow-caption">Caption One</span>
                     </div>
 
-                    <div class="slideshow none">
+                    <div class="slideshow slideshow-none">
                       <img src="https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg">
-                      <span class="caption">Caption Two</span>
+                      <span class="slideshow-caption">Caption Two</span>
                     </div>
 
-                    <div class="slideshow none">
+                    <div class="slideshow slideshow-none">
                       <img src="https://wallpaperaccess.com/full/235804.jpg">
-                      <span class="caption">Caption Two</span>
+                      <span class="slideshow-caption">Caption Three</span>
                     </div>
 
-                    <a class="prevBtn" onclick="btnSlide(-1)">&#10094;</a>
-                    <a class="nextBtn" onclick="btnSlide(1)">&#10095;</a>
+                    <a class="slideshow-prevBtn" onclick="btnSlide(-1)">&#10094;</a>
+                    <a class="slideshow-nextBtn" onclick="btnSlide(1)">&#10095;</a>
                 </div>
                 <br>
 
-                <div class="slideshow_info">
-                    <span class="info" onclick="currentSlide(1)"></span>
-                    <span class="info" onclick="currentSlide(2)"></span>
-                    <span class="info" onclick="currentSlide(3)"></span>
+                <div class="slideshow-info">
+                    <span class="slideshow-dot" onclick="currentSlide(1)"></span>
+                    <span class="slideshow-dot" onclick="currentSlide(2)"></span>
+                    <span class="slideshow-dot" onclick="currentSlide(3)"></span>
                 </div>
             </div>
             <pre>
-&#x3C;div class=&#x22;slideshow_container&#x22;&#x3E;
+&#x3C;div class=&#x22;slideshow-container&#x22;&#x3E;
     &#x3C;div class=&#x22;slideshow&#x22;&#x3E;
-      &#x3C;img src=&#x22;https://cdn.spacetelescope.org/archives/images/wallpaper2/heic2007a.jpg&#x22;&#x3E;
-      &#x3C;span class=&#x22;caption&#x22;&#x3E;Caption One&#x3C;/span&#x3E;
+        &#x3C;img src=&#x22;https://cdn.spacetelescope.org/archives/images/wallpaper2/heic2007a.jpg&#x22;&#x3E;
+        &#x3C;span class=&#x22;slideshow-caption&#x22;&#x3E;Caption One&#x3C;/span&#x3E;
     &#x3C;/div&#x3E;
 
-    &#x3C;div class=&#x22;slideshow none&#x22;&#x3E;
-      &#x3C;img src=&#x22;https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg&#x22;&#x3E;
-      &#x3C;span class=&#x22;caption&#x22;&#x3E;Caption Two&#x3C;/span&#x3E;
+    &#x3C;div class=&#x22;slideshow slideshow-none&#x22;&#x3E;
+        &#x3C;img src=&#x22;https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg&#x22;&#x3E;
+        &#x3C;span class=&#x22;slideshow-caption&#x22;&#x3E;Caption Two&#x3C;/span&#x3E;
     &#x3C;/div&#x3E;
 
-    &#x3C;div class=&#x22;slideshow none&#x22;&#x3E;
-      &#x3C;img src=&#x22;https://wallpaperaccess.com/full/235804.jpg&#x22;&#x3E;
-      &#x3C;span class=&#x22;caption&#x22;&#x3E;Caption Two&#x3C;/span&#x3E;
+    &#x3C;div class=&#x22;slideshow slideshow-none&#x22;&#x3E;
+        &#x3C;img src=&#x22;https://wallpaperaccess.com/full/235804.jpg&#x22;&#x3E;
+        &#x3C;span class=&#x22;slideshow-caption&#x22;&#x3E;Caption Three&#x3C;/span&#x3E;
     &#x3C;/div&#x3E;
 
-    &#x3C;a class=&#x22;prevBtn&#x22; onclick=&#x22;btnSlide(-1)&#x22;&#x3E;&#x26;#10094;&#x3C;/a&#x3E;
-    &#x3C;a class=&#x22;nextBtn&#x22; onclick=&#x22;btnSlide(1)&#x22;&#x3E;&#x26;#10095;&#x3C;/a&#x3E;
+    &#x3C;a class=&#x22;slideshow-prevBtn&#x22; onclick=&#x22;btnSlide(-1)&#x22;&#x3E;&#x26;#10094;&#x3C;/a&#x3E;
+    &#x3C;a class=&#x22;slideshow-nextBtn&#x22; onclick=&#x22;btnSlide(1)&#x22;&#x3E;&#x26;#10095;&#x3C;/a&#x3E;
 &#x3C;/div&#x3E;
-
 &#x3C;br&#x3E;
 
-&#x3C;div class=&#x22;slideshow_info&#x22;&#x3E;
-    &#x3C;!-- It depends on how many picture(s) insert --&#x3E;
-    &#x3C;span class=&#x22;info&#x22; onclick=&#x22;currentSlide(1)&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;info&#x22; onclick=&#x22;currentSlide(2)&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;span class=&#x22;info&#x22; onclick=&#x22;currentSlide(3)&#x22;&#x3E;&#x3C;/span&#x3E;
-    &#x3C;!-- It depends on how many picture(s) insert --&#x3E;
+&#x3C;div class=&#x22;slideshow-info&#x22;&#x3E;
+    &#x3C;span class=&#x22;slideshow-dot&#x22; onclick=&#x22;currentSlide(1)&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;span class=&#x22;slideshow-dot&#x22; onclick=&#x22;currentSlide(2)&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;span class=&#x22;slideshow-dot&#x22; onclick=&#x22;currentSlide(3)&#x22;&#x3E;&#x3C;/span&#x3E;
 &#x3C;/div&#x3E;</pre>
             <p>Note: Need to know that you should put <code>none</code> class after the <code>slideshow</code> class <b>EXCEPT</b> the first image.</p>
     </div>
