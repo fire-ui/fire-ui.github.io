@@ -2,16 +2,16 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Set the website theme color according to the latest user preference saved in localStorage
     if(localStorage.getItem('theme-color')){
-        document.body.setAttribute('theme', localStorage.getItem('theme-color'))
+        document.body.setAttribute('data-theme', localStorage.getItem('theme-color'))
     }
     // Searching all attributes with switch-theme attribute
     document.querySelectorAll("[switch-theme]").forEach(btn => {
         btn.addEventListener("click", () => {
-            if(document.body.getAttribute('theme') === "dark"){
+            if(document.body.getAttribute('data-theme') === "dark"){
                 localStorage.setItem('theme-color', "light")
             }else{
                 localStorage.setItem('theme-color', "dark")
-            }document.body.setAttribute('theme', localStorage.getItem('theme-color'))
+            }document.body.setAttribute('data-theme', localStorage.getItem('theme-color'))
         })
     })
     document.querySelectorAll(".topnav-hamburger-menu").forEach(menu => {
@@ -83,4 +83,30 @@ document.addEventListener("DOMContentLoaded", () => {
             else panel.style.maxHeight = panel.scrollHeight + 'px';
         })
     })
+    document.querySelectorAll(".textarea-auto-adjust").forEach(textarea => {
+        textarea.addEventListener("input", () => {
+            textarea.style.height = "5px";
+            textarea.style.height = textarea.scrollHeight + 'px';
+        })
+    })
 })
+var defaultIndex = 1;
+activeSlide(defaultIndex);
+
+function btnSlide(n) { activeSlide(defaultIndex += n); }
+function currentSlide(n) { activeSlide(defaultIndex = n); }
+function activeSlide(n) {
+  var i;
+  var slides = document.getElementsByClassName("slideshow");
+  var info = document.getElementsByClassName("slideshow-dot");
+  if (n > slides.length) {defaultIndex = 1}
+  if (n < 1) {defaultIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].classList.add("slideshow-none");
+  }
+  for (i = 0; i < info.length; i++) {
+      info[i].className = info[i].className.replace(" slideshow-active", "");
+  }
+  if(slides[defaultIndex - 1]) slides[defaultIndex-1].classList.toggle("slideshow-none");
+  if(info[defaultIndex - 1]) info[defaultIndex-1].className += " slideshow-active";
+}
