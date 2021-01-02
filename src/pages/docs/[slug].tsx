@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import fs from 'fs';
 import path from 'path';
 import { GetStaticPaths, GetStaticProps } from 'next';
@@ -18,6 +18,8 @@ interface Props {
 }
 let lastRender: String = "";
 const Docs: React.FC<Props> = ({ content, data, slugs, allData }) => {
+    const [path, setPath] = useState('')
+
     useEffect(() => {
         lastRender = window.location.href
     }, [])
@@ -26,6 +28,9 @@ const Docs: React.FC<Props> = ({ content, data, slugs, allData }) => {
             doStuff()
             lastRender = window.location.href
         }
+    })
+    useEffect(() => {
+        setPath(window.location.pathname)
     })
     return (
         <Layout slugs={slugs} allData={allData}>
@@ -38,6 +43,31 @@ const Docs: React.FC<Props> = ({ content, data, slugs, allData }) => {
                 <meta property="og:description" content = {data.description} />
                 <meta property="twitter:description" content = {data.description} />
                 {!data.keywords || data.keywords.length === 0 ? null : <meta name="keywords" content={data.keywords.join(',')} />}
+                {path === "/docs/slideshow"?
+                <script type = "text/javascript" dangerouslySetInnerHTML = {({__html: 
+                `var defaultIndex = 1;
+                    activeSlide(defaultIndex);
+                
+                    function btnSlide(n) { activeSlide(defaultIndex += n); }
+                    function currentSlide(n) { activeSlide(defaultIndex = n); }
+                    function activeSlide(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("slideshow");
+                        var info = document.getElementsByClassName("slideshow-dot");
+                        if (n > slides.length) {defaultIndex = 1}
+                        if (n < 1) {defaultIndex = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].classList.add("slideshow-none");
+                        }
+                        for (i = 0; i < info.length; i++) {
+                            info[i].className = info[i].className.replace(" slideshow-active", "");
+                        }
+                        if(slides[defaultIndex - 1]) slides[defaultIndex-1].classList.toggle("slideshow-none");
+                        if(info[defaultIndex - 1]) info[defaultIndex-1].className += " slideshow-active";
+                }`
+                })}>
+                </script>
+                :null}
             </Head>
             <div className="pb-2">
                 <div dangerouslySetInnerHTML={{ __html: content }} />
