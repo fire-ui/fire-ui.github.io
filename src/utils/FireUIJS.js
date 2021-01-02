@@ -1,5 +1,4 @@
 export const doStuff = () => {
-    window.onbeforeunload = () => console.log('a')
     if (localStorage.getItem('theme-color')) {
         document.body.setAttribute('data-theme', localStorage.getItem('theme-color'))
     }

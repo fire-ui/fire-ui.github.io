@@ -16,10 +16,16 @@ interface Props {
     content: string;
     data: Metadata;
 }
-
+let lastRender: String = "";
 const Docs: React.FC<Props> = ({ content, data, slugs, allData }) => {
     useEffect(() => {
-        doStuff()
+        lastRender = window.location.href
+    }, [])
+    useEffect(() => {
+        if(lastRender !== window.location.href){
+            doStuff()
+            lastRender = window.location.href
+        }
     })
     return (
         <Layout slugs={slugs} allData={allData}>
