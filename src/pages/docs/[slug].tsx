@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import fs from 'fs';
 import path from 'path';
 import { GetStaticPaths, GetStaticProps } from 'next';
@@ -8,6 +8,7 @@ import Head from 'next/head';
 import { Metadata } from '../../types';
 import Layout from 'src/components/Layout';
 import { readFilesMetadata } from 'src/utils/readFiles';
+import { doStuff } from "src/utils/FireUIJS";
 
 interface Props {
     allData: Metadata[];
@@ -17,6 +18,9 @@ interface Props {
 }
 
 const Docs: React.FC<Props> = ({ content, data, slugs, allData }) => {
+    useEffect(() => {
+        doStuff()
+    })
     return (
         <Layout slugs={slugs} allData={allData}>
             <Head>
