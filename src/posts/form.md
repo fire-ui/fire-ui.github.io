@@ -85,6 +85,19 @@ Grouping your inputs into `form-group`
 </div>
 <div class="division">
 
+## Textarea auto adjust
+
+Auto adjust your textarea height according to user's input by using `textarea-auto-adjust` class.
+### Example
+<textarea class="textarea-auto-adjust form-control"></textarea>
+
+```
+<textarea class="textarea-auto-adjust form-control"></textarea>
+```
+
+</div>
+<div class="division">
+
 ## Form Grid
 You can combine form with the Fire UI <a href="./grid" class="link">Grid system</a> too!
 ### Example

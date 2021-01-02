@@ -1,4 +1,5 @@
 export const doStuff = () => {
+    window.onbeforeunload = () => console.log('a')
     if (localStorage.getItem('theme-color')) {
         document.body.setAttribute('data-theme', localStorage.getItem('theme-color'))
     }
@@ -79,6 +80,12 @@ export const doStuff = () => {
             var panel = document.getElementById(accordion.dataset.panel);
             if (panel.style.maxHeight) panel.style.maxHeight = null;
             else panel.style.maxHeight = panel.scrollHeight + 'px';
+        })
+    })
+    document.querySelectorAll(".textarea-auto-adjust").forEach(textarea => {
+        textarea.addEventListener("input", () => {
+            textarea.style.height = "5px";
+            textarea.style.height = textarea.scrollHeight + 'px';
         })
     })
 }
