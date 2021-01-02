@@ -55,21 +55,25 @@ Example of topnav with all classess available combined together:
 ### Topnav Shadow
 `topnav-shadow` class provides shading for topnav. Differences between `topnav` with `topnav-shadow` and without `topnav-shadow` class:
 
+#### Without shadow:
+
 <div class="topnav theme-reverse">
     <span class="topnav-brand">Navbar</span>
-    <span class="topnav-hamburger-menu" data-target = "myTopnav">&#x2630;</span>
-    <div class="topnav-right" id="myTopnav">
+    <span class="topnav-hamburger-menu" data-target = "withoutShadow">&#x2630;</span>
+    <div class="topnav-right" id="withoutShadow">
         <a class="topnav-item" href="#">Home Page</a>
         <a class="topnav-item" href="#">Features</a>
         <a class="topnav-item" href="#">Pricing</a>
     </div>
 </div>
 
+#### With shadow:
+
 ```
 <div class="topnav theme-reverse">
     <span class="topnav-brand">Navbar</span>
-    <span class="topnav-hamburger-menu" data-target = "myTopnav">&#x2630;</span>
-    <div class="topnav-right" id="myTopnav">
+    <span class="topnav-hamburger-menu" data-target = "withoutShadow">&#x2630;</span>
+    <div class="topnav-right" id="withoutShadow">
         <a class="topnav-item" href="#">Home Page</a>
         <a class="topnav-item" href="#">Features</a>
         <a class="topnav-item" href="#">Pricing</a>
@@ -79,8 +83,8 @@ Example of topnav with all classess available combined together:
 
 <div class="topnav theme-reverse topnav-shadow">
     <span class="topnav-brand">Navbar</span>
-    <span class="topnav-hamburger-menu" data-target = "myTopnav">&#x2630;</span>
-    <div class="topnav-right" id="myTopnav">
+    <span class="topnav-hamburger-menu" data-target = "withShadow">&#x2630;</span>
+    <div class="topnav-right" id="withShadow">
         <a class="topnav-item" href="#">Home Page</a>
         <a class="topnav-item" href="#">Features</a>
         <a class="topnav-item" href="#">Pricing</a>

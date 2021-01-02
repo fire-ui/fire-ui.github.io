@@ -1,8 +1,7 @@
-## Documentation page for Fire-UI in NextJS
+## Documentation page for Fire-UI
+
+This is repository of documentation page for FIre UI, for more information of Fire UI, please visit this [repository](https://github.com/fire-ui/fire-ui).
 
 ### Setup
-- **make sure** that you're in the `next-docs` directory in your terminal or command prompt
-    - if not, then make sure to `cd next-docs`
-- Once in the `next-docs` directory, run the following
-    - `yarn` or `npm install` to install dependencies
-    - `yarn dev` or `npm run dev` to run it in development server
+- Install dependencies by typing `yarn` or `npm install` on your command line
+- Type `yarn dev` or `npm run dev` on your command line to run it in development server.
