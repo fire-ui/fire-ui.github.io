@@ -14,8 +14,8 @@ keyword:
 Fire UI provides some basic colors and Fire UI supports night theme. To use only Fire UI color and theme features, copy and paste this stylesheet and style tag into your `head` element to load Fire UI color and theme CSS and JS.
 
 ```
-<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.1.1/src/feature/Colors%20and%20Theme/color.min.css">
-<script src="https://unpkg.com/@fire-ui/fire-ui@0.1.1/src/feature/Colors%20and%20Theme/color.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.2.0/src/feature/Colors_and_Theme/color.min.css">
+<script src="https://unpkg.com/@fire-ui/fire-ui@0.2.0/src/feature/Colors_and_Theme/color.min.js"></script>
 ```
 
 <div class="division">

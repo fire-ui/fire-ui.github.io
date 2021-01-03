@@ -12,7 +12,7 @@ keyword:
 # Box
 Start using Fire UI box by simply add `box` class into your element. Fire UI also provides `box-shadow` and `box-title` class for your box element. To use only Fire UI box feature, copy and paste this stylesheet link into your `head` element to load Fire UI code CSS.
 ```
-<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.1.1/src/feature/Box/box.min.css">
+<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.2.0/src/feature/Box/box.min.css">
 ```
 <div class="division">
 
