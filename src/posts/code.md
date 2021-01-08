@@ -39,6 +39,7 @@ To display inline code, simply use `<code>` tag element in your HTML. Use `<pre>
 
 ### `pre` tag
 <pre>
+<code>
 &#x3C;!-- Fire UI has not released yet --&#x3E;                
 &#x3C;!DOCTYPE html&#x3E;
 &#x3C;html lang=&#x22;en&#x22;&#x3E;
@@ -56,9 +57,11 @@ To display inline code, simply use `<code>` tag element in your HTML. Use `<pre>
     &#x3C;h1&#x3E;Hello, world!&#x3C;/h1&#x3E;
 &#x3C;/body&#x3E;
 &#x3C;/html&#x3E;
+</code>
 </pre>
 ```
 <pre>
+<code>
 &#x3C;!-- Fire UI has not released yet --&#x3E;                
 &#x3C;!DOCTYPE html&#x3E;
 &#x3C;html lang=&#x22;en&#x22;&#x3E;
@@ -76,6 +79,7 @@ To display inline code, simply use `<code>` tag element in your HTML. Use `<pre>
     &#x3C;h1&#x3E;Hello, world!&#x3C;/h1&#x3E;
 &#x3C;/body&#x3E;
 &#x3C;/html&#x3E;
+</code>
 </pre>
 ```
 

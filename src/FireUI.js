@@ -5,12 +5,19 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.setAttribute('data-theme', localStorage.getItem('theme-color'))
     }
     // Searching all attributes with switch-theme attribute
-    document.querySelectorAll("[switch-theme]").forEach(btn => {
+    document.querySelectorAll("[data-switch-theme]").forEach(btn => {
         btn.addEventListener("click", () => {
-            if(document.body.getAttribute('data-theme') === "dark"){
-                localStorage.setItem('theme-color', "light")
+            if(btn.dataset.switchTheme && btn.dataset.switchTheme !== ""){
+                let availableTheme = btn.dataset.switchTheme.split(',').map(i => i.trim())
+                //Check if current theme is in availableTheme array
+                if(availableTheme.indexOf(document.body.getAttribute("data-theme")) === -1) localStorage.setItem('theme-color', availableTheme[0])
+                else{
+                    if(availableTheme.indexOf(document.body.getAttribute('data-theme')) + 1 === availableTheme.length) localStorage.setItem('theme-color', availableTheme[0])
+                    else localStorage.setItem('theme-color', availableTheme[availableTheme.indexOf(document.body.getAttribute('data-theme')) + 1])
+                }
             }else{
-                localStorage.setItem('theme-color', "dark")
+                if(document.body.getAttribute('data-theme') === "dark") localStorage.setItem('theme-color', "light")
+                else localStorage.setItem('theme-color', "dark")
             }document.body.setAttribute('data-theme', localStorage.getItem('theme-color'))
         })
     })
@@ -88,6 +95,26 @@ document.addEventListener("DOMContentLoaded", () => {
             textarea.style.height = "5px";
             textarea.style.height = textarea.scrollHeight + 'px';
         })
+    })
+    document.querySelectorAll("pre").forEach(pre => {
+        if(Boolean(pre.getElementsByTagName('code').length) && !(pre.hasAttribute('data-copyable') && pre.dataset.copyable === "false")){
+            var copyBtn = document.createElement('button');
+            copyBtn.classList.add('code-copyBtn');
+            copyBtn.innerText = "Copy";
+            pre.insertBefore(copyBtn, pre.firstChild)
+            copyBtn.addEventListener('click', () => {
+                const code = pre.querySelector('code').innerText;
+                const textarea = document.createElement("textarea");
+                textarea.value = code;
+                textarea.style.opacity = '0';
+                textarea.setAttribute('readonly', '');
+                document.body.appendChild(textarea);
+                textarea.select()
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                copyBtn.innerText = "Copied";
+            })
+        }
     })
 })
 var defaultIndex = 1;

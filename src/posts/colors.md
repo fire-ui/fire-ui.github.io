@@ -21,13 +21,18 @@ Fire UI provides some basic colors and Fire UI supports night theme. To use only
 <div class="division">
 
 ## Theme
-Fire UI has light theme and dark theme. To use this inside your website, add `theme` attribute to body tag, with value light or dark. For example, `<body theme="dark">` will make your website in dark mode. In contrast, `<body theme="light">` will make your website in light mode. In case of switching theme, add `switch-theme` attribute into buttons.
+Fire UI support multiple theme. To use this inside your webite, add `data-theme` attribute to body tag, with value the default theme. For example, `<body data-theme = "dark"` will make your website in dark mode as default. To switch theme in your website, add a `data-switch-theme` attribute into an element , it will switch theme between dark and light as default. To customize it, add value of theme, with comma splitted as value of `data-switch-theme` attribute. For example, if you wish, your website to have 3 themes such as light, dark and aqua theme, add `data-switch-theme="light, dark, comma" attribute into an element.
+
+Current theme available:
+- light
+- dark
+- aqua
 
 ### Example:
-You can switch theme of this website by clicking <u switch-theme>here</u> and <button switch-theme class="theme-reverse btn">Here</button>
+You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua">here</u> and <button data-switch-theme="light, dark, aqua" class="theme-reverse btn">Here</button>
 
 ```
-You can switch theme of this website by clicking <u switch-theme>here</u> and <button switch-theme class="theme-reverse btn">Here</button>
+You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua">here</u> and <button data-switch-theme="light, dark, aqua" class="theme-reverse btn">Here</button>
 ```
 
 </div>
