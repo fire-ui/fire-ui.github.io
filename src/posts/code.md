@@ -17,7 +17,15 @@ To use only Fire UI code feature, copy and paste the stylesheet link into your h
 
 ## How to use
 
-To display inline code, simply use `<code>` tag element in your HTML. Use `<pre>` tag element in your HTML for multiline code.
+To display inline code, simply use `<code>` tag element in your HTML. Use `<pre>` tag element in your HTML for multiline code. Note that there is a copy button for `<pre>` tag as default which will visible on pre tag is hovered. To unable this and unable user to copy code, add `data-copyable` attribute and set value to `false` so that your `<pre>` tag will looks something like this:
+
+```
+<pre data-copyable = "false">
+    <code>
+        somethings here...
+    </code>
+<pre>
+```
 
 **NOTE** that you must remember to replace `<` and `>` with `&#x3C;` and `&#x3E;` or it will rendered as HTML.
 

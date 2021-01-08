@@ -23,6 +23,7 @@ To use only Fire UI container feature, copy and paste this stylesheet link into 
 ```
 
 <div class="division">
+
 ## Starter template with container class
 
 ```
