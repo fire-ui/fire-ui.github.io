@@ -17,7 +17,7 @@ const Navbar = () => {
                     <a className="topnav-item" >Example</a>
                 </Link>
                 <span className="topnav-item sidenav-menu-btn" data-target="about">About</span>
-                <span className="topnav-item" switch-theme="true">Switch Theme</span>
+                <span className="topnav-item" data-switch-theme="light, dark, aqua">Switch Theme</span>
             </div>
         </div>
     )

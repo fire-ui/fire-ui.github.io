@@ -54,8 +54,8 @@ Note that you can customize colors. For more information, read <a href = "./cust
 
 ### Special classes:
 <ul>
-    <li class="theme-adjust">theme-adjust (This class background color and color will adjust from page theme, click <u switch-theme>here</u> to change theme)</li>
-    <li class="theme-reverse">theme-reverse (This class background color and color will reverse from page theme, click <u switch-theme>here</u> to change theme)</li>
+    <li class="theme-adjust">theme-adjust (This class background color and color will adjust from page theme, click <u data-switch-theme="light, dark, aqua">here</u> to change theme)</li>
+    <li class="theme-reverse">theme-reverse (This class background color and color will reverse from page theme, click <u data-switch-theme="light, dark, aqua">here</u> to change theme)</li>
 </ul>
 
 ### Background color classes:
