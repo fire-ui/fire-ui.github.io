@@ -27,12 +27,16 @@ Current theme available:
 - light
 - dark
 - aqua
+- sky
+- phoenix
+- indigo
+- teal
 
 ### Example:
-You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua">here</u> and <button data-switch-theme="light, dark, aqua" class="theme-reverse btn">Here</button>
+You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal">here</u> and <button data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal" class="theme-reverse btn">Here</button>
 
 ```
-You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua">here</u> and <button data-switch-theme="light, dark, aqua" class="theme-reverse btn">Here</button>
+You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua">here</u> and <button data-switch-theme="light, dark, aqua, sky, phoenix" class="theme-reverse btn">Here</button>
 ```
 
 </div>
@@ -50,12 +54,17 @@ Note that you can customize colors. For more information, read <a href = "./cust
     <li class="yellow-text">yellow-text</li>
     <li class="green-text">green-text</li>
     <li class="purple-text">purple-text</li>
+    <li class="aqua-text">aqua-text</li>
+    <li class="phoenix-text">phoenix-text</li>
+    <li class="sky-text">sky-text</li>
+    <li class="indigo-text">indigo-text</li>
+    <li class="teal-text">teal-text</li>
 </ul>
 
 ### Special classes:
 <ul>
-    <li class="theme-adjust">theme-adjust (This class background color and color will adjust from page theme, click <u data-switch-theme="light, dark, aqua">here</u> to change theme)</li>
-    <li class="theme-reverse">theme-reverse (This class background color and color will reverse from page theme, click <u data-switch-theme="light, dark, aqua">here</u> to change theme)</li>
+    <li class="theme-adjust">theme-adjust (This class background color and color will adjust from page theme, click <u data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal">here</u> to change theme)</li>
+    <li class="theme-reverse">theme-reverse (This class background color and color will reverse from page theme, click <u data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal">here</u> to change theme)</li>
 </ul>
 
 ### Background color classes:
@@ -69,5 +78,10 @@ Note that you can customize colors. For more information, read <a href = "./cust
     <li><div class="box yellow-background">yellow-background</div></li>
     <li><div class="box green-background">green-background</div></li>
     <li><div class="box purple-background">purple-background</div></li>
+    <li><div class="box aqua-background">aqua-background</div></li>
+    <li><div class="box phoenix-background">phoenix-background</div></li>
+    <li><div class="box sky-background">sky-background</div></li>
+    <li><div class="box indigo-background">indigo-background</div></li>
+    <li><div class="box teal-background">teal-background</div></li>
 </ul>
 </div>

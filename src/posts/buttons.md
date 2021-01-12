@@ -32,7 +32,9 @@ Fire UI buttons are simple. Simply use `btn` class to your button. To use only F
 
 </div>
 <div class="division">
+
 ## Combination
+
 You can combine button with other features too. For example:
 <button class="btn theme-reverse">btn theme-reverse</button>
 <button class="btn theme-adjust">btn theme-adjust</button>
