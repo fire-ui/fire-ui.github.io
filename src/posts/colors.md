@@ -36,7 +36,7 @@ Current theme available:
 You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal">here</u> and <button data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal" class="theme-reverse btn">Here</button>
 
 ```
-You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua">here</u> and <button data-switch-theme="light, dark, aqua, sky, phoenix" class="theme-reverse btn">Here</button>
+You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal">here</u> and <button data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal" class="theme-reverse btn">Here</button>
 ```
 
 </div>
@@ -50,10 +50,8 @@ Note that you can customize colors. For more information, read <a href = "./cust
     <li class="black-text">black-text</li>
     <li class="white-text">white-text</li>
     <li class="blue-text">blue-text</li>
-    <li class="red-text">red-text</li>
     <li class="yellow-text">yellow-text</li>
     <li class="green-text">green-text</li>
-    <li class="purple-text">purple-text</li>
     <li class="aqua-text">aqua-text</li>
     <li class="phoenix-text">phoenix-text</li>
     <li class="sky-text">sky-text</li>
@@ -74,10 +72,8 @@ Note that you can customize colors. For more information, read <a href = "./cust
     <li><div class="box black-background white-text">black-background</div></li>
     <li><div class="box white-background black-text">white-background</div></li>
     <li><div class="box blue-background">blue-background</div></li>
-    <li><div class="box red-background">red-background</div></li>
     <li><div class="box yellow-background">yellow-background</div></li>
     <li><div class="box green-background">green-background</div></li>
-    <li><div class="box purple-background">purple-background</div></li>
     <li><div class="box aqua-background">aqua-background</div></li>
     <li><div class="box phoenix-background">phoenix-background</div></li>
     <li><div class="box sky-background">sky-background</div></li>
