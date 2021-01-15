@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }: any) {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://fire-ui.netlify.app/" />
         <meta property="twitter:image" content="https://fire-ui.netlify.app/logo.jpg" />
+        <meta name="google-site-verification" content="f2IksBn0gaAR2hCehQG9_hZ_uWuL14NJ43eoxsv_bBE" />
         {/* <script src="https://unpkg.com/@fire-ui/fire-ui@0.1.0/FireUI.js"></script> */}
       </Head>
       <Component {...pageProps} />
