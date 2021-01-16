@@ -3631,7 +3631,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SideNavbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SideNavbar */ "./src/components/SideNavbar.tsx");
 
 
-var _jsxFileName = "E:\\Fire-UI - Organisation\\fire-ui.github.io\\src\\components\\Layout.tsx";
+var _jsxFileName = "E:\\Fire-UI\\fire-ui.github.io\\src\\components\\Layout.tsx";
 
 
 
@@ -3683,7 +3683,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "E:\\Fire-UI - Organisation\\fire-ui.github.io\\src\\components\\SideNavbar.tsx";
+var _jsxFileName = "E:\\Fire-UI\\fire-ui.github.io\\src\\components\\SideNavbar.tsx";
 
 
 
@@ -3884,7 +3884,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_utils_readFiles__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! src/utils/readFiles */ "./src/utils/readFiles.ts");
 /* harmony import */ var src_utils_FireUIJS__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/utils/FireUIJS */ "./src/utils/FireUIJS.js");
 
-var _jsxFileName = "E:\\Fire-UI - Organisation\\fire-ui.github.io\\src\\pages\\docs\\[slug].tsx";
+var _jsxFileName = "E:\\Fire-UI\\fire-ui.github.io\\src\\pages\\docs\\[slug].tsx";
 
 
 
