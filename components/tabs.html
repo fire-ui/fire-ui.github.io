@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs ~ Fire UI</title>
+    <meta name="title" content="Tabs ~ Fire UI">
+    <meta name="description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fire-ui.github.io/">
+    <meta property="og:title" content="Tabs ~ Fire UI">
+    <meta property="og:description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="og:image" content="https://fire-ui.github.io/logo.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fire-ui.github.io/">
+    <meta property="twitter:title" content="Tabs ~ Fire UI">
+    <meta property="twitter:description" content="Quickly design your website with Fire UI, an open-source project aimed to contain everything that
+    is frequently used on the frontend. Fire UI supports a single folder for certain features to reduce CSS file size.">
+    <meta property="twitter:image" content="https://fire-ui.github.io/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="../FireUI.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../FireUI.js"></script>
+    <link rel="shortcut icon" href="../logo.jpg" type="image/x-icon">
+</head>
+<body theme="light">
+    <div class="fixed-sidenav theme-reverse">
+        <a class="fixed-sidenav-item sidenav-title" href="../index.html">Fire UI</a>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown = "gettingStarted">Getting Started <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content" id="gettingStarted">
+            <a class="fixed-sidenav-item" href="../getting-started/introduction.html">Introduction</a>
+            <a class="fixed-sidenav-item" href="../getting-started/download.html">Download</a>
+            <a class="fixed-sidenav-item" href="../getting-started/customize.html">Customize</a>
+        </div>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown="layout">Layout <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content" id="layout">
+            <a href="../Layout/container.html" class="fixed-sidenav-item">Container</a>
+            <a href="../Layout/grid.html" class="fixed-sidenav-item">Grid</a>
+        </div>
+        <span class="fixed-sidenav-dropdown-btn" data-dropdown="component">Components <span class="dropdown-icon"></span></span>
+        <div class="fixed-sidenav-dropdown-content fixed-sidenav-dropdown-active" id="component">
+            <a href="../components/accordion.html" class="fixed-sidenav-item">Accordion</a>
+            <a href="../components/box.html" class="fixed-sidenav-item">Box</a>
+            <a href="../components/buttons.html" class="fixed-sidenav-item">Buttons</a>
+            <a href="../components/code.html" class="fixed-sidenav-item">Code</a>
+            <a href="../components/color_theme.html" class="fixed-sidenav-item">Color and theme</a>
+            <a href="../components/form.html" class="fixed-sidenav-item">Form</a>
+            <a href="../components/modal.html" class="fixed-sidenav-item">Modal</a>
+            <a href="../components/navbar.html" class="fixed-sidenav-item">Navigation bar</a>
+            <a href="../components/slideshow.html" class="fixed-sidenav-item">Slideshow</a>
+            <a href="../components/spacing.html" class="fixed-sidenav-item">Spacing</a>
+            <a href="../components/table.html" class="fixed-sidenav-item">Table</a>
+            <a href="../components/tabs.html" class="fixed-sidenav-item">Tabs</a>
+            <a href="../components/tooltip.html" class="fixed-sidenav-item">Tooltip</a>
+        </div>
+    </div>
+    <div class="main-page">
+        <h1>Tabs</h1>
+        <p>Use Fire UI tabs to separate content into different panes where each pane is viewable one at a time. 
+            To use only Fire UI tab feature, copy and paste these stylesheet and script tag into your <code>head</code> element to load Fire UI tab CSS and JS.
+        </p>
+        <pre>
+&#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;https://unpkg.com/@fire-ui/fire-ui@0.1.1/src/feature/Tabs/tab.css&#x22;&#x3E;
+&#x3C;script src=&#x22;https://unpkg.com/@fire-ui/fire-ui@0.1.1/src/feature/Tabs/tab.js&#x22;&#x3E;&#x3C;/script&#x3E;</pre>
+        <div class="division">
+            <h2>Example</h2>
+            <div class="box">
+                <div class="tab" data-tab = "exampleTab">
+                    <button class="tab-btn btn-dark" data-content = "helloWorld">Hello</button>
+                    <button class="tab-btn btn-light" data-content = "loremIpsum">Lipsum</button>
+                </div>
+                <div class="tab-contents" id="exampleTab">
+                    <div id="helloWorld" class="tab-content tab-content-active">
+                        <h1>Hello World</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id metus ligula. 
+                            Ut neque tortor, vulputate ut placerat id, molestie at risus. Curabitur velit augue, facilisis eu nisi et, 
+                            placerat dapibus dui. Etiam tempor nulla mi, a porta nisl sagittis ut. Aenean ullamcorper maximus nulla, rutrum sodales ligula. 
+                            Nulla urna dui, efficitur in rutrum a, viverra eu nunc. Ut non rhoncus turpis, at vulputate mauris. Suspendisse et efficitur massa, in aliquam justo.
+                        </p>
+                    </div>
+                    <div id="loremIpsum" class="tab-content">
+                        <h1>Lorem ipsum</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id metus ligula. 
+                            Ut neque tortor, vulputate ut placerat id, molestie at risus. Curabitur velit augue, facilisis eu nisi et, 
+                            placerat dapibus dui. Etiam tempor nulla mi, a porta nisl sagittis ut. Aenean ullamcorper maximus nulla, rutrum sodales ligula. 
+                            Nulla urna dui, efficitur in rutrum a, viverra eu nunc. Ut non rhoncus turpis, at vulputate mauris. Suspendisse et efficitur massa, in aliquam justo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <pre>
+&#x3C;div class=&#x22;box&#x22;&#x3E;
+    &#x3C;div class=&#x22;tab&#x22; data-tab = &#x22;exampleTab&#x22;&#x3E;
+        &#x3C;button class=&#x22;tab-btn btn-dark&#x22; data-content = &#x22;helloWorld&#x22;&#x3E;Hello&#x3C;/button&#x3E;
+        &#x3C;button class=&#x22;tab-btn btn-light&#x22; data-content = &#x22;loremIpsum&#x22;&#x3E;Lipsum&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;tab-contents&#x22; id=&#x22;exampleTab&#x22;&#x3E;
+        &#x3C;div id=&#x22;helloWorld&#x22; class=&#x22;tab-content tab-content-active&#x22;&#x3E;
+            &#x3C;h1&#x3E;Hello World&#x3C;/h1&#x3E;
+            &#x3C;p&#x3E;
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id metus ligula. 
+                Ut neque tortor, vulputate ut placerat id, molestie at risus. Curabitur velit augue, facilisis eu nisi et, 
+                placerat dapibus dui. Etiam tempor nulla mi, a porta nisl sagittis ut. Aenean ullamcorper maximus nulla, rutrum sodales ligula. 
+                Nulla urna dui, efficitur in rutrum a, viverra eu nunc. Ut non rhoncus turpis, at vulputate mauris. Suspendisse et efficitur massa, in aliquam justo.
+            &#x3C;/p&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div id=&#x22;loremIpsum&#x22; class=&#x22;tab-content&#x22;&#x3E;
+            &#x3C;h1&#x3E;Lorem ipsum&#x3C;/h1&#x3E;
+            &#x3C;p&#x3E;
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id metus ligula. 
+                Ut neque tortor, vulputate ut placerat id, molestie at risus. Curabitur velit augue, facilisis eu nisi et, 
+                placerat dapibus dui. Etiam tempor nulla mi, a porta nisl sagittis ut. Aenean ullamcorper maximus nulla, rutrum sodales ligula. 
+                Nulla urna dui, efficitur in rutrum a, viverra eu nunc. Ut non rhoncus turpis, at vulputate mauris. Suspendisse et efficitur massa, in aliquam justo.
+            &#x3C;/p&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+            </pre>
+        </div>
+        <div class="division">
+            <h2>Things to note:</h2>
+            <ul>
+                <li><code>tab-btn</code> class and <code>btn</code> class are differents. Use <code>tab-btn</code> class or your tab won't work.</li>
+                <li><code>data-content</code> attribute of <code>tab-btn</code> tag must have value of it's content id</li>
+                <li><code>data-tab</code> attribute of <code>tab</code> class element must has value of it's tab contents' id</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
