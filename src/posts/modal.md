@@ -12,8 +12,8 @@ keyword:
 # Modal
 Use Fire UI modal plugin to create dialogs to your site, user notifications and others. To use only Fire UI modal feature, copy and paste these stylesheet and script tag into your `head` element to load Fire UI modal CSS and JS.
 ```
-<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.2.0/src/feature/Modal/modal.min.css">
-<script src="https://unpkg.com/@fire-ui/fire-ui@0.2.0/src/feature/Modal/modal.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.2.2/src/feature/Modal/modal.min.css">
+<script src="https://unpkg.com/@fire-ui/fire-ui@0.2.2/src/feature/Modal/modal.min.js"></script>
 ```
 <div class="division">
 

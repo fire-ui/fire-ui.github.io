@@ -10,10 +10,10 @@ description: Start using Fire-UI Marquee to animate your text easily with easy c
 # Marquee
 Start using Fire-UI Marquee to animate your text easily without any diificult configuration!
 ```
-<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.2.0/src/feature/Tooltip/marquee.min.css">
+<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.2.2/src/feature/Marquee/marquee.min.css">
 ```
 ```
-<script src="https://unpkg.com/@fire-ui/fire-ui@0.2.0/src/feature/Marquee/marquee.min.js"></script>
+<script src="https://unpkg.com/@fire-ui/fire-ui@0.2.2/src/feature/Marquee/marquee.min.js"></script>
 ```
 <div class="division">
 
