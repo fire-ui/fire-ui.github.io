@@ -58,6 +58,28 @@ Grouping your inputs into `form-group`
         <input type="password" class="form-control">
     </div>
     <div class="form-group">
+        <p class="form-label">Hobby</p>
+        <div>
+            <input type="checkbox" id="cycling">
+            <label for="cycling">Cycling</label>
+        </div>
+        <div>
+            <input type="checkbox" id="dancing">
+            <label for="dancing">Dancing</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <p class="form-label">Yes or no?</p>
+        <div>
+            <input type = "radio" id="yes" name="yesorno">
+            <label for = "yes">Yes</label>
+        </div>
+        <div>
+            <input type = "radio" id="no" name="yesorno">
+            <label for = "no">No</label>
+        </div>
+    </div>
+    <div class="form-group">
         <input type="submit" class="btn form-control theme-adjust">
     </div>
 </div>
@@ -75,6 +97,28 @@ Grouping your inputs into `form-group`
     <div class="form-group">
         <p class="form-label">Password:</p>
         <input type="password" class="form-control">
+    </div>
+    <div class="form-group">
+        <p class="form-label">Hobby</p>
+        <div>
+            <input type="checkbox" id="cycling">
+            <label for="cycling">Cycling</label>
+        </div>
+        <div>
+            <input type="checkbox" id="dancing">
+            <label for="dancing">Dancing</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <p class="form-label">Yes or no?</p>
+        <div>
+            <input type = "radio" id="yes" name="yesorno">
+            <label for = "yes">Yes</label>
+        </div>
+        <div>
+            <input type = "radio" id="no" name="yesorno">
+            <label for = "no">No</label>
+        </div>
     </div>
     <div class="form-group">
         <input type="submit" class="btn form-control theme-adjust">
@@ -113,6 +157,73 @@ You can combine form with the Fire UI <a href="./grid" class="link">Grid system<
     <div class="row">
         <div class="col-ex-7"><input type="text" class="form-control" placeholder="First name"></div>
         <div class="col-ex-5"><input type="text" class="form-control" placeholder="Last name"></div>
+    </div>
+</div>
+```
+
+</div>
+<div class="division">
+
+## Checkbox
+Fire UI provides default Checkbox style
+
+<div class="box theme-reverse">
+    <div class="form-group">
+        <div>
+            <input type = 'checkbox' id="myCheckbox">
+            <label for = "myCheckbox">My checkbox</label>
+        </div>
+        <div>
+            <input type = 'checkbox' id="anotherCheckbox">
+            <label for = "anotherCheckbox">another checkbox</label>
+        </div>
+    </div>
+</div>
+
+```
+<div class="box theme-reverse">
+    <div class="form-group">
+        <div>
+            <input type = 'checkbox' id="myCheckbox">
+            <label for = "myCheckbox">My checkbox</label>
+        </div>
+        <div>
+            <input type = 'checkbox' id="anotherCheckbox">
+            <label for = "anotherCheckbox">another checkbox</label>
+        </div>
+    </div>
+</div>
+```
+
+</div>
+<div class="division">
+
+## Radio button
+Beside checkbox, Fire UI also provide default style to radio button
+<div class="box theme-reverse">
+    <div class="form-group">
+        <div>
+            <input type = 'radio' id="myRadioButton" name="radioButton">
+            <label for = "myRadioButton">My radio button</label>
+        </div>
+        <div>
+            <input type = 'radio' id="anotherRadioButton" name="radioButton">
+            <label for = "anotherRadioButton">another radio button</label>
+        </div>
+    </div>
+</div>
+
+```
+<div class="box theme-reverse">
+    <div class="form-group">
+        <div>
+            <input type = 'radio' id="myRadioButton" name="radioButton">
+            <label for = "myRadioButton">My radio button</label>
+        </div>
+        <div>
+            <input type = 'radio' id="anotherRadioButton" name="radioButton">
+            <label for = "anotherRadioButton">another radio button</label>
+        </div>
     </div>
 </div>
 ```
