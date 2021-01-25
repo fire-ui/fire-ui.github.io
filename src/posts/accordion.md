@@ -11,8 +11,8 @@ keyword:
 # Accordion
 Show and hide HTML content by using Fire UI Accordion. To use only Fire UI accordion feature, copy and paste following stylesheet and script tag into your `head` element to load Fire UI accordion CSS and JavaScript.
 ```
-<link rel="stylesheet" href="https://unpkg.com/@fire-ui/fire-ui@0.2.2/src/feature/Accordion/accordion.min.css">
-<script src="https://unpkg.com/@fire-ui/fire-ui@0.2.2/src/feature/Accordion/accordion.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.2/src/feature/Accordion/accordion.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.2/src/feature/Accordion/accordion.min.js"></script>
 ```
 
 <div class="division">
