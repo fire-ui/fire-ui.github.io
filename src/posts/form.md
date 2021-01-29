@@ -129,6 +129,24 @@ Grouping your inputs into `form-group`
 </div>
 <div class="division">
 
+## Toggle switch
+A checkbox based toggle switch input. To use this, create a `div` element with `toggle-switch` and inside it, create an input checkbox with a unique id. **Note**: You should give input checkbox with a unique id
+
+### Example:
+<div class="toggle-switch">
+    <input type="checkbox" name="hello" id="hi">
+</div>
+
+```
+<div class="toggle-switch">
+    <input type="checkbox" name="hello" id="hi">
+</div>
+```
+
+
+</div>
+<div class="division">
+
 ## Textarea auto adjust
 
 Auto adjust your textarea height according to user's input by using `textarea-auto-adjust` class.

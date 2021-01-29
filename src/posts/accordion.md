@@ -74,13 +74,13 @@ Click on the "Open section" buttons below to see how accordions work:
 </div>
 <div class="division">
 
-## `accordion` class
+## accordion class
 `accordion` class actually act as a "button" for its panel.
 
 </div>
 <div class="division">
 
-## `accordion-panel` class
+## accordion-panel class
 Content for an accordion is stored in `accordion-panel` class.
 
 </div>
