@@ -33,6 +33,26 @@ Fire UI buttons are simple. Simply use `btn` class to your button. To use only F
 </div>
 <div class="division">
 
+## Button shadow
+Add shadow effect to your button when hovered by using `btn-hover`. Note that sometimes shadow could not be seen since the theme background.
+
+<button class="btn btn-danger btn-hover">Danger</button>
+<button class="btn btn-success btn-hover">Success</button>
+<button class="btn btn-warning btn-hover">Warning</button>
+<button class="btn btn-dark btn-hover">Dark</button>
+<button class="btn btn-light btn-hover">Light</button>
+
+```
+<button class="btn btn-danger btn-hover">Danger</button>
+<button class="btn btn-success btn-hover">Success</button>
+<button class="btn btn-warning btn-hover">Warning</button>
+<button class="btn btn-dark btn-hover">Dark</button>
+<button class="btn btn-light btn-hover">Light</button>
+```
+
+</div>
+<div class="division">
+
 ## Combination
 
 You can combine button with other features too. For example:
