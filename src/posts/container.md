@@ -19,7 +19,7 @@ Container is fundamental class of Fire UI, making your website to be mobile frie
 
 To use only Fire UI container feature, copy and paste this stylesheet link into your `head` element to load Fire UI container CSS.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.2/src/feature/Grid_System/grid_system.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.3/src/feature/Grid_System/grid_system.min.css">
 ```
 
 <div class="division">
@@ -34,9 +34,9 @@ To use only Fire UI container feature, copy and paste this stylesheet link into 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Fire UI CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.2/FireUI.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.3/FireUI.min.css">
     <!-- Fire UI Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.2/FireUI.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.3/FireUI.min.js"></script>
     <title>Hello, world!</title>
 </head>
 <body>
