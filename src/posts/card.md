@@ -13,7 +13,7 @@ keyword:
 To use Fire UI card feature, copy and paste this stylesheet tag into your `head` element to load Fire UI card CSS.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.3/src/feature/Card/card.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/src/feature/Card/card.min.css">
 ```
 
 ## Example:
