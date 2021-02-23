@@ -59,6 +59,23 @@ Note that you can customize colors. For more information, read <a href = "./cust
     <li class="teal-text">teal-text</li>
 </ul>
 
+### Gradient text:
+<ul>
+    <li class="violet-gradient-text">violet-gradient-text violet-gradient-text violet-gradient-text violet-gradient-text violet-gradient-text violet-gradient-text</li>
+    <li class="teal-gradient-text">teal-gradient-text teal-gradient-text teal-gradient-text teal-gradient-text teal-gradient-text teal-gradient-text</li>
+    <li class="gold-gradient-text">gold-gradient-text gold-gradient-text gold-gradient-text gold-gradient-text gold-gradient-text gold-gradient-text</li>
+    <li class="emerald-gradient-text">emerald-gradient-text emerald-gradient-text emerald-gradient-text emerald-gradient-text emerald-gradient-text emerald-gradient-text</li>
+    <li class="winter-neva-gradient-text">winter-neva-gradient-text winter-neva-gradient-text winter-neva-gradient-text winter-neva-gradient-text winter-neva-gradient-text</li>
+    <li class="premium-dark-gradient-text">premium-dark-gradient-text premium-dark-gradient-text premium-dark-gradient-text premium-dark-gradient-text premium-dark-gradient-text</li>
+    <li class="everlasting-sky-gradient-text">everlasting-sky-gradient-text everlasting-sky-gradient-text everlasting-sky-gradient-text everlasting-sky-gradient-text</li>
+    <li class="nega-gradient-text">nega-gradient-text nega-gradient-text nega-gradient-text nega-gradient-text nega-gradient-text nega-gradient-text</li>
+    <li class="mauve-gradient-text">mauve-gradient-text mauve-gradient-text mauve-gradient-text mauve-gradient-text mauve-gradient-text mauve-gradient-text</li>
+    <li class="virgin-america-gradient-text">virgin-america-gradient-text virgin-america-gradient-text virgin-america-gradient-text virgin-america-gradient-text</li>
+    <li class="endless-river-gradient-text">endless-river-gradient-text endless-river-gradient-text endless-river-gradient-text endless-river-gradient-text</li>
+    <li class="celestial-gradient-text">celestial-gradient-text celestial-gradient-text celestial-gradient-text celestial-gradient-text celestial-gradient-text</li>
+    <li class="royal-gradient-text">royal-gradient-text royal-gradient-text royal-gradient-text royal-gradient-text royal-gradient-text royal-gradient-text</li>
+</ul>
+
 ### Special classes:
 <ul>
     <li class="theme-adjust">theme-adjust (This class background color and color will adjust from page theme, click <u data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal">here</u> to change theme)</li>
