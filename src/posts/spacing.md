@@ -26,7 +26,7 @@ Classes for margins in Fire UI: (possible values for [num] = 0, 1, 2, 3, 4, 5 an
 - mt-[num] (margin top)
 - mb-[num] (margin bottom)
 - mr-[num] (margin right)
-- ml-[num] (margin left
+- ml-[num] (margin left)
 
 </div>
 <div class="division">
