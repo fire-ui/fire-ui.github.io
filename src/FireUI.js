@@ -95,6 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
             textarea.style.height = "5px";
             textarea.style.height = textarea.scrollHeight + 'px';
         })
+        textarea.style.height = textarea.scrollHeight + parseInt(getComputedStyle(textarea).paddingTop) +parseInt(getComputedStyle(textarea).paddingBottom) + 'px';
     })
     document.querySelectorAll("pre").forEach(pre => {
         if(Boolean(pre.getElementsByTagName('code').length) && !(pre.hasAttribute('data-copyable') && pre.dataset.copyable === "false")){
@@ -113,6 +114,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.execCommand('copy');
                 document.body.removeChild(textarea);
                 copyBtn.innerText = "Copied";
+                document.addEventListener('copy', () => {
+                    copyBtn.innerText = "Copy";
+                })
             })
         }
     })
@@ -132,6 +136,13 @@ document.addEventListener("DOMContentLoaded", () => {
         element.classList.add('toggle-animation')
         element.setAttribute("for", toggle.querySelector("input[type=checkbox]")?.getAttribute('id'))
         toggle.appendChild(element)
+    })
+    document.querySelectorAll(".input-animate").forEach(input => {
+        let form = input.parentNode;
+        form.classList.add('form-animate')
+        let element = document.createElement("span");
+        element.classList.add('input-onFocus');
+        if(!form.querySelector(".input-onFocus"))form.insertBefore(element, input.nextSibling)
     })
     document.querySelectorAll(".marquee").forEach(marquee => {
 		let direction = marquee.dataset.direction === "up" || marquee.dataset.direction === "down" ? "vertical" : "horizontal";

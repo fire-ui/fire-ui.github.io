@@ -44,29 +44,25 @@ Give your input a styled lable.
 ## Form input animation
 To use form input animation, add `form-animate` class in the same element as [`form-group`](#form-group) and add `input-animate` class in your input and don't forget add a `span` element with `input-onFocus` class on it.
 <div class="box theme-reverse">
-    <div class="form-group form-animate">
+    <div class="form-group">
         <p class="form-label">Username:</p>
         <input type="text" class="input-animate">
-        <span class="input-onFocus"></span>
     </div>
-    <div class="form-group form-animate">
+    <div class="form-group">
         <p class="form-label">Email address:</p>
         <input type="email" class="input-animate">
-        <span class="input-onFocus"></span>
     </div>
 </div>
 
 ```
 <div class="box theme-reverse">
-    <div class="form-group form-animate">
+    <div class="form-group">
         <p class="form-label">Username:</p>
         <input type="text" class="input-animate">
-        <span class="input-onFocus"></span>
     </div>
-    <div class="form-group form-animate">
+    <div class="form-group">
         <p class="form-label">Email address:</p>
         <input type="email" class="input-animate">
-        <span class="input-onFocus"></span>
     </div>
 </div>
 ```

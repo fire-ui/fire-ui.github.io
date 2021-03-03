@@ -103,4 +103,57 @@ Example of comb
 </div>
 ```
 
+## Masonry grid
+Maonry is a grid layout based on columns like what pinterest website does.
+
+### Example
+
+<div class="masonry">
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat. Donec in enim nisl. Morbi vehicula erat tincidunt neque aliquet molestie. Quisque facilisis semper hendrerit. Nulla facilisi. Aenean vehicula eleifend placerat.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat. Donec in enim nisl. Morbi vehicula erat tincidunt neque aliquet molestie. Quisque facilisis semper hendrerit. Nulla facilisi. Aenean vehicula eleifend placerat.</p>
+        <p>Pellentesque placerat feugiat orci, ac fermentum dui porta non. Aenean sodales elit lacus, bibendum rutrum orci elementum euismod.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat. Donec in enim nisl. Morbi vehicula erat tincidunt neque aliquet molestie. Quisque facilisis semper hendrerit. Nulla facilisi. Aenean vehicula eleifend placerat.</p>
+        <p>Pellentesque placerat feugiat orci, ac fermentum dui porta non. Aenean sodales elit lacus, bibendum rutrum orci elementum euismod.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat.</p>
+    </div>
+</div>
+
+```
+<div class="masonry">
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat. Donec in enim nisl. Morbi vehicula erat tincidunt neque aliquet molestie. Quisque facilisis semper hendrerit. Nulla facilisi. Aenean vehicula eleifend placerat.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat. Donec in enim nisl. Morbi vehicula erat tincidunt neque aliquet molestie. Quisque facilisis semper hendrerit. Nulla facilisi. Aenean vehicula eleifend placerat.</p>
+        <p>Pellentesque placerat feugiat orci, ac fermentum dui porta non. Aenean sodales elit lacus, bibendum rutrum orci elementum euismod.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat. Donec in enim nisl. Morbi vehicula erat tincidunt neque aliquet molestie. Quisque facilisis semper hendrerit. Nulla facilisi. Aenean vehicula eleifend placerat.</p>
+        <p>Pellentesque placerat feugiat orci, ac fermentum dui porta non. Aenean sodales elit lacus, bibendum rutrum orci elementum euismod.</p>
+    </div>
+    <div class="masonry-item theme-reverse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc nibh, elementum eu pulvinar eget, placerat et sapien. Donec sed sollicitudin arcu. Donec iaculis ex sit amet ligula sodales, sed auctor dolor facilisis. Pellentesque semper felis vitae egestas condimentum. Donec ac libero at ligula lacinia aliquam nec sed elit. Vivamus est arcu, feugiat ac enim sit amet, ornare egestas diam. Nullam tempus dignissim tortor ut euismod. Suspendisse sed felis ac erat fringilla volutpat.</p>
+    </div>
+</div>
+```
+
 </div>
