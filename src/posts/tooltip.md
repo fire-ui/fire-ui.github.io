@@ -10,7 +10,7 @@ description: Start using Fire UI tooltip plugin to display some information abou
 # Tooltip
  Start using Fire UI tooltip plugin to display some information about an element when user hovers a mouse pointer over and enhance your UI with Fire-UI's tooltip! To use only Fire UI tooltip feature, copy and paste this stylesheet link into your `head` element to load Fire UI tooltip CSS.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/src/feature/Tooltip/tooltip.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Tooltip/tooltip.min.css">
 ```
 <div class="division">
 

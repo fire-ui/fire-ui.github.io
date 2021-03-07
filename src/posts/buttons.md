@@ -11,7 +11,7 @@ keyword:
 # Buttons
 Fire UI buttons are simple. Simply use `btn` class to your button. To use only Fire UI button feature, copy and paste this stylesheet link into your `head` element to load Fire UI button CSS.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/src/feature/Buttons/button.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Buttons/button.min.css">
 ```
 <div class="division">
 

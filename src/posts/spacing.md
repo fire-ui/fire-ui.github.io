@@ -15,7 +15,7 @@ keyword:
 Give your element spacing from other elements with Fire UI spacing. To use only Fire UI spacing feature, copy and paste this stylesheet link into your head element to load Fire UI spacing CSS.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/src/feature/Spacing/spacing.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Spacing/spacing.min.css">
 ```
 
 <div class="division">

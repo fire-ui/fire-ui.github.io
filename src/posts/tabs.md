@@ -10,8 +10,8 @@ description: Use Fire UI tabs to separate content into different panels where ea
 # Tabs
 Use Fire UI tabs to separate content into different panels where each panel is viewable one at a time. To use only Fire UI tab feature, copy and paste these stylesheet and script tag into your `head` element to load Fire UI tab CSS and JS.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/src/feature/Tabs/tab.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/src/feature/Tabs/tab.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Tabs/tab.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Tabs/tab.min.js"></script>
 ```
 <div class="division">
 

@@ -12,7 +12,7 @@ keywords:
 # Grid system
 Start using our powerful, mobile-first, twelve columns grid system. To use only Fire UI grid system feature, copy and paste this stylesheet link into your head element to load Fire UI grid system CSS.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/src/feature/Grid_System/grid_system.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Grid_System/grid_system.min.css">
 ```
 
 <div class="division">
