@@ -32,6 +32,9 @@ Current theme available:
 - indigo
 - teal
 
+### Disable changing theme
+You can disable theme of the website changing by adding `data-disable-switching-theme="true"` attribute into your `body` tag.
+
 ### Example:
 You can switch theme of this website by clicking <u data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal">here</u> and <button data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal" class="theme-reverse btn">Here</button>
 
