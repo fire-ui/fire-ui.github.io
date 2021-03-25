@@ -17,8 +17,8 @@ keyword:
 Start navigate your user into a specific page or section using Fire UI navbar. To use only Fire UI navbar feature, copy and paste these stylesheet and script tag into your `head` element to load Fire UI navbar CSS and JS.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Navigation_Bar/navbar.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Navigation_Bar/navbar.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Navigation_Bar/navbar.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Navigation_Bar/navbar.min.js"></script>
 ```
 <div class="division">
 

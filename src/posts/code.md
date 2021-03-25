@@ -11,7 +11,7 @@ keyword:
 # Code
 To use only Fire UI code feature, copy and paste the stylesheet link into your head element to load Fire UI code CSS.
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Code/code.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Code/code.min.css">
 ```
 <div class="division">
 

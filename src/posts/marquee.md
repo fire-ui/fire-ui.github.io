@@ -10,8 +10,8 @@ description: Start using Fire-UI Marquee to animate your text easily with easy c
 # Marquee
 Start using Fire-UI Marquee to animate your text easily without any diificult configuration!
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Marquee/marquee.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.5/src/feature/Marquee/marquee.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Marquee/marquee.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Marquee/marquee.min.js"></script>
 ```
 
 <div class="division">
