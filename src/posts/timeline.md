@@ -11,7 +11,7 @@ description: Start using Fire UI timeline to display things that happens orderly
 # Timeline
 Start using Fire UI timeline to display things that happens orderly! To use only Fire UI timeline feature, copy and paste this stylesheet link into your `head` element to load Fire UI timeline CSS.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Timeline/timeline.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/src/feature/Timeline/timeline.min.css">
 ```
 
 <div class="division">

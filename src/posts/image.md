@@ -12,7 +12,7 @@ description: Start using Fire UI image to style your imagess
 To use only Fire UI image feature, copy and paste this stylesheet link into your `head` element to load Fire UI Image CSS.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Image/image.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/src/feature/Image/image.min.css">
 ```
 
 ## Image shadow

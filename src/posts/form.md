@@ -12,7 +12,7 @@ keyword:
 # Form
 To use only Fire UI form feature, copy and paste this stylesheet link into your `head` element to load Fire UI Form CSS.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Form/form.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/src/feature/Form/form.min.css">
 ```
 
 <div class="division">

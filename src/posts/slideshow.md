@@ -14,8 +14,8 @@ keyword:
 Need a collection of images without wasting your pages and time? Slideshow is here for you! To use only Fire UI Slideshow feature, copy and paste these stylesheet and script tag into your `head` element to load Fire UI navbar CSS and JS.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Slideshow/slideshow.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Slideshow/slideshow.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/src/feature/Slideshow/slideshow.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/src/feature/Slideshow/slideshow.min.js"></script>
 ```
 
 <div class="division">

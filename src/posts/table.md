@@ -11,7 +11,7 @@ description: Fire UI Table
 # Table
 To use only Fire UI tab feature, copy and paste these stylesheet and script tag into your `head` element to load Fire UI tab CSS and JS.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/src/feature/Table/table.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/src/feature/Table/table.min.css">
 ```
 
 <div class='division'>

@@ -16,12 +16,12 @@ Get started with Fire UI, an open-source framework to help you build website eas
 ### CSS
 Copy and paste the stylesheet `link` into your `head` element to load Fire UI CSS.
 ```
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/FireUI.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/FireUI.min.css">
 ```
 ### Javascript
 Some of our components require Javascript to work well, such as `Code`, `Navbar` and others features. To do so: Place the following `script` tag inside your HTML file
 ```
-<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/FireUI.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/FireUI.min.js"></script>
 ```
 
 </div>
@@ -46,9 +46,9 @@ Start building your web page by using HTML5 and Fire UI.
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Fire UI CSS -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/FireUI.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/FireUI.min.css">
 <!-- Fire UI Javascript -->
-<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.6/FireUI.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.7/FireUI.min.js"></script>
 <title>Hello, world!</title>
 </head>
 <body>
